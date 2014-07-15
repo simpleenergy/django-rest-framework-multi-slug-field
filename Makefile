@@ -24,7 +24,7 @@ clean-pyc:
 	find . -name '*~' -exec rm -f {} +
 
 lint:
-	flake8 django-rest-framework-multi-slug-field tests
+	flake8 rest_framework_msf tests
 
 test:
 	python runtests.py test
@@ -33,15 +33,15 @@ test-all:
 	tox
 
 coverage:
-	coverage run --source django-rest-framework-multi-slug-field setup.py test
+	coverage run --source rest_framework_msf setup.py test
 	coverage report -m
 	coverage html
 	open htmlcov/index.html
 
 docs:
-	rm -f docs/django-rest-framework-multi-slug-field.rst
+	rm -f docs/rest_framework_msf.rst
 	rm -f docs/modules.rst
-	sphinx-apidoc -o docs/ django-rest-framework-multi-slug-field
+	sphinx-apidoc -o docs/ rest_framework_msf
 	$(MAKE) -C docs clean
 	$(MAKE) -C docs html
 	open docs/_build/html/index.html
