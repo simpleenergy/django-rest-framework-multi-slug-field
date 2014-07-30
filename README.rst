@@ -5,11 +5,11 @@ django-rest-framework-multi-slug-field
 .. image:: https://badge.fury.io/py/django-rest-framework-multi-slug-field.png
     :target: https://badge.fury.io/py/django-rest-framework-multi-slug-field
 
-.. image:: https://travis-ci.org/pipermerriam/django-rest-framework-multi-slug-field.png?branch=master
-    :target: https://travis-ci.org/pipermerriam/django-rest-framework-multi-slug-field
+.. image:: https://travis-ci.org/simpleenergy/django-rest-framework-multi-slug-field.png?branch=master
+    :target: https://travis-ci.org/simpleenergy/django-rest-framework-multi-slug-field
 
-.. image:: https://coveralls.io/repos/pipermerriam/django-rest-framework-multi-slug-field/badge.png?branch=master
-    :target: https://coveralls.io/r/pipermerriam/django-rest-framework-multi-slug-field?branch=master
+.. image:: https://coveralls.io/repos/simpleenergy/django-rest-framework-multi-slug-field/badge.png?branch=master
+    :target: https://coveralls.io/r/simpleenergy/django-rest-framework-multi-slug-field?branch=master
 
 A field for representing a relationship via multiple fields on the target
 
