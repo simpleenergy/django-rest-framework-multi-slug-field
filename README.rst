@@ -27,7 +27,7 @@ Install django-rest-framework-multi-slug-field::
 
 Then use it in a project::
 
-    from rest_framework_msf import MultiSlugField
+    from rest_framework_msf.fields import MultiSlugField
 
 Features
 --------
