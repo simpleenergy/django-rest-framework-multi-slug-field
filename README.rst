@@ -16,7 +16,7 @@ A field for representing a relationship via multiple fields on the target
 Documentation
 -------------
 
-The full documentation is at https://django-rest-framework-multi-slug-field.readthedocs.org.
+The full documentation is at http://drf-multislugfield.readthedocs.org/en/latest/index.html
 
 Quickstart
 ----------
